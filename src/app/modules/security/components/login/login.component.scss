@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.login-outer {
+  width: 100vw;
+  height: calc(100vh - 172px);
+  background-color: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.login-form {
+  width: 80%;
+  max-width: 400px;
+  min-width: 380px;
+  height: 90%;
+  max-height: 500px;
+  min-height: 420px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lf-logo-outer {
+  width: 100%;
+  height: 90%;
+  max-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+  }
+}
+
+.lf-text-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 150%;
+
+}
+
+.lf-text-field-outer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+
+  input {
+    width: 270px;
+    height: 30px;
+    border: 2px solid #14181E;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #AFAFAF;
+
+    &::placeholder {
+      color: #AFAFAF;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.lf-forgot-password-outer {
+  width: 100%;
+  padding-right: 35%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  a {
+    text-decoration: underline;
+    color: #14181E;
+    font-size: 12px;
+  }
+}
+
+.lf-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  button {
+    width: 280px;
+    height: 30px;
+    border: 1px solid #14181E;
+    border-radius: 5px;
+    color: white;
+    background-color: #14181E;
+
+    &:hover {
+      border: 1px solid #324D71;
+      background-color: #324D71;
+
+    }
+  }
+}
+
+.lf-seperator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  color: #AFAFAF;
+
+  div {
+    width: 30%;
+    height: 1px;
+    background-color: #14181E;
+    margin-top: 10px;
+  }
+}
+
+.lf-login-icons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+
+  svg {
+    width: 30px;
+    height: 30px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.lf-bottom-text {
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: bold;
+
+  a {
+    text-decoration: none;
+    color: #14181E;
+  }
+}
+
+
+
+
